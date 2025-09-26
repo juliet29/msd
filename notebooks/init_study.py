@@ -6,150 +6,51 @@ app = marimo.App(width="medium")
 
 @app.cell
 def _():
-    from msd.main import get_sample_unit, get_sample_dataset_with_rectangular_units
-    from msd.angle_between import angle_between_vectors, rotate_rectangular_polygon
+
     import numpy as np
+    from msd.main import filter_to_rect_units
+    from msd.case import add_rotated_geom_column
     import polars as pl 
     import shapely 
     import math 
-    return (
-        angle_between_vectors,
-        get_sample_dataset_with_rectangular_units,
-        get_sample_unit,
-        np,
-        rotate_rectangular_polygon,
-        shapely,
-    )
+    from shapely import plotting
+    return filter_to_rect_units, plotting, shapely
 
 
 @app.cell
-def _(get_sample_dataset_with_rectangular_units):
-    df3 = get_sample_dataset_with_rectangular_units()
-    return (df3,)
+def _(filter_to_rect_units):
+    rp = filter_to_rect_units().collect()
+    rp
+    return (rp,)
 
 
 @app.cell
-def _(df3):
-    df3.collect()
+def _(rp, shapely):
+    gdict = {}
+    for name, data in rp.sort("unit_id").group_by("unit_id"):
+        polys = shapely.MultiPolygon([shapely.from_wkt(geom) for geom in data["geom"]])
+        n = str(int(name[0]))
+        gdict[n] = polys
+
+    gdict
+    return (gdict,)
+
+
+@app.cell
+def _(gdict, plotting):
+    plotting.plot_polygon(gdict["11883"])
     return
 
 
 @app.cell
-def _(get_sample_unit):
-    df = get_sample_unit().collect() 
-    df
-    return (df,)
-
-
-@app.cell
-def _(df, rotate_rectangular_polygon, shapely):
-    geom2 = df[3]["geom"][0]
-    poly2 = shapely.from_wkt(geom2)
-    rotate_rectangular_polygon(poly2)
+def _(gdict, plotting):
+    plotting.plot_polygon(gdict["147600"])
     return
 
 
 @app.cell
-def _(df, shapely):
-    geom = df[0]["geom"][0]
-    poly = shapely.from_wkt(geom)
-    poly
-    return (poly,)
-
-
-@app.cell
-def _(poly, shapely):
-    shapely.affinity.rotate(poly, 45)
-    return
-
-
-@app.cell
-def _(poly):
-    list(poly.exterior.coords)
-    return
-
-
-@app.cell
-def _(poly, shapely):
-    coords = list(poly.normalize().exterior.coords)
-    right_line = shapely.LineString(coords[2:4])
-    centroid = poly.centroid
-    return centroid, right_line
-
-
-@app.cell
-def _(centroid, right_line):
-    right_line.centroid.x > centroid.x
-    return
-
-
-@app.cell
-def _(centroid, right_line, shapely):
-    shapely.GeometryCollection([right_line, centroid]) # TODO -> some assertions.. 
-    return
-
-
-@app.cell
-def _(centroid, right_line):
-    dist_along = right_line.project(centroid)
-    dist_along
-    return (dist_along,)
-
-
-@app.cell
-def _(centroid, dist_along, right_line, shapely):
-    ptb = right_line.line_interpolate_point(dist_along)
-    vector_line = shapely.LineString([centroid, ptb])
-    shapely.GeometryCollection([ptb, right_line, centroid, vector_line])
-
-    return ptb, vector_line
-
-
-@app.cell
-def _(vector_line):
-    print(vector_line)
-    return
-
-
-@app.cell
-def _(centroid):
-    centroid.x
-    return
-
-
-@app.cell
-def _(centroid, shapely, vector_line):
-    translated_line = shapely.affinity.translate(vector_line, xoff=-1*centroid.x, yoff=-1*centroid.y) # TODO assert that its 0,0
-    print(translated_line)
-    return (translated_line,)
-
-
-@app.cell
-def _(centroid, vector_line):
-    centroid.touches(vector_line)
-    return
-
-
-@app.cell
-def _(centroid, ptb, right_line, shapely, translated_line, vector_line):
-    shapely.GeometryCollection([ptb, right_line, centroid, vector_line, translated_line])
-    return
-
-
-@app.cell
-def _(angle_between_vectors, np, translated_line):
-    non_zero_pt = list(translated_line.coords)[1]
-    v1 = np.array(non_zero_pt)
-    e0 = np.array([1,0])
-
-    angle = angle_between_vectors(e0, v1)
-    angle
-    return (angle,)
-
-
-@app.cell
-def _(angle, poly, shapely):
-    shapely.affinity.rotate(poly, angle, use_radians=True)
+def _(gdict, plotting):
+    plotting.plot_polygon(gdict["148501"])
     return
 
 

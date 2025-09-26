@@ -25,5 +25,12 @@ Engelenburg, Casper van, Fatemeh Mostafavi, Emanuel Kuhn, et al. “MSD: A Bench
 - **Unit ID**: Also says the apartment the entity comes from, but is different for different floor 
 
 
-## Unit IDs
-[(48475.0,), (48489.0,), (48885.0,), (48887.0,), (48890.0,), (48892.0,), (48894.0,), (48898.0,), (48904.0,), (48906.0,), (48907.0,), (48909.0,)]
+
+
+## Results of rectangularity test: 
+- num possible units: 18903 
+- num interesting units (more than one area): 18651
+- num  all_rect units: 23
+- num all_rect units (excluding balconies): 43
+
+[HTML with rectangular plans](https://static.marimo.app/static/show-rectangular-plans-bfkb)

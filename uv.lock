@@ -281,6 +281,22 @@ wheels = [
 ]
 
 [[package]]
+name = "dataframely"
+version = "1.13.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "polars" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/d3/fe/b694bfc8e11d5a82d519043c3ee3193b0f127fabdaa5eb17a47fde94f778/dataframely-1.13.0.tar.gz", hash = "sha256:02d679399f613be25622f0196eb9a267c43789d1750fd615ea3392e6901d2640", size = 310932, upload-time = "2025-09-26T06:35:42.44Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/57/73/a9ed820f17fcc373f9085c6159e2be65dcd93c9e4cccbebc51798273cca8/dataframely-1.13.0-cp310-abi3-macosx_11_0_arm64.whl", hash = "sha256:d5929fd8ccd061dc23325a7673c463ac6131022d0fd2ac6925e75ea3c9b402b9", size = 508140, upload-time = "2025-09-26T06:35:34.255Z" },
+    { url = "https://files.pythonhosted.org/packages/fe/24/7558d581986230dbce5f67cf8042c099a878cdf806f34ee0b6d321003ce3/dataframely-1.13.0-cp310-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:6bb5b5e30d2c1b0744b276458f7343ff44848399939b06d4b7048f626d84d0bd", size = 553825, upload-time = "2025-09-26T06:35:35.986Z" },
+    { url = "https://files.pythonhosted.org/packages/59/2e/e64ec9bd09a459d2fa6836226b54683157aec95747ed34fb8f481f4a471d/dataframely-1.13.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:3e7104fcc492586a4a2a9a1fe6674ca913a31d23a6f6902612c57966ec245904", size = 552723, upload-time = "2025-09-26T06:35:37.815Z" },
+    { url = "https://files.pythonhosted.org/packages/15/71/ba79bc936b69d2fcd3fd38d955d2a3d835f2ed3ac005258a1d887968da39/dataframely-1.13.0-cp310-abi3-win_amd64.whl", hash = "sha256:5f8e45a871d8372f7c6de456eb05ffc71f902f379f8dab280dc5de64813921c6", size = 429389, upload-time = "2025-09-26T06:35:39.541Z" },
+]
+
+[[package]]
 name = "decorator"
 version = "5.2.1"
 source = { registry = "https://pypi.org/simple" }
@@ -814,9 +830,11 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "altair" },
+    { name = "dataframely" },
     { name = "kagglehub", extra = ["polars-datasets"] },
     { name = "marimo" },
     { name = "polars" },
+    { name = "pyprojroot" },
     { name = "replan2eplus" },
     { name = "shapely" },
     { name = "vegafusion" },
@@ -826,9 +844,11 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "altair", specifier = ">=5.5.0" },
+    { name = "dataframely", specifier = ">=1.13.0" },
     { name = "kagglehub", extras = ["polars-datasets"], specifier = ">=0.3.13" },
     { name = "marimo", specifier = ">=0.16.2" },
     { name = "polars", specifier = ">=1.33.1" },
+    { name = "pyprojroot", specifier = ">=0.3.0" },
     { name = "replan2eplus", directory = "../../replan2eplus" },
     { name = "shapely", specifier = ">=2.1.2" },
     { name = "vegafusion", specifier = ">=2.0.2" },
