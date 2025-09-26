@@ -6,7 +6,7 @@ app = marimo.App(width="medium")
 
 @app.cell
 def _():
-    from msd.main import get_sample_unit
+    from msd.main import get_sample_unit, get_sample_dataset_with_rectangular_units
     from msd.angle_between import angle_between_vectors, rotate_rectangular_polygon
     import numpy as np
     import polars as pl 
@@ -14,11 +14,24 @@ def _():
     import math 
     return (
         angle_between_vectors,
+        get_sample_dataset_with_rectangular_units,
         get_sample_unit,
         np,
         rotate_rectangular_polygon,
         shapely,
     )
+
+
+@app.cell
+def _(get_sample_dataset_with_rectangular_units):
+    df3 = get_sample_dataset_with_rectangular_units()
+    return (df3,)
+
+
+@app.cell
+def _(df3):
+    df3.collect()
+    return
 
 
 @app.cell
