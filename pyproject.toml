@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
-    { name = "Juliet Nwagwu Ume-Ezeoke", email = "jnwagwu@stanford.edu" }
+    { name = "Juliet Nwagwu Ume-Ezeoke", email = "jnwagwu@stanford.edu" },
 ]
 requires-python = ">=3.13"
 dependencies = [
@@ -15,8 +15,12 @@ dependencies = [
     "shapely>=2.1.2",
     "vegafusion>=2.0.2",
     "vl-convert-python>=1.8.0",
+    "replan2eplus",
 ]
 
 [build-system]
 requires = ["uv_build>=0.8.3,<0.9.0"]
 build-backend = "uv_build"
+
+[tool.uv.sources]
+replan2eplus = { path = "../../replan2eplus" }
