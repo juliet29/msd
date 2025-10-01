@@ -18,6 +18,8 @@ dependencies = [
     "replan2eplus",
     "pyprojroot>=0.3.0",
     "dataframely>=1.13.0",
+    "utils4plans",
+    "svg2plan",
 ]
 
 [build-system]
@@ -26,3 +28,5 @@ build-backend = "uv_build"
 
 [tool.uv.sources]
 replan2eplus = { path = "../../replan2eplus" }
+svg2plan = { path = "../../svg2plan" }
+utils4plans = { path = "../../utils4plans" }

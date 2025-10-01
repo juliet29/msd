@@ -1,0 +1,244 @@
+
+ Meters for 21,BLOCK `BALCONY_0` STOREY 0:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BLOCK `BALCONY_0` STOREY 0 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BLOCK `BALCONY_0` STOREY 0 [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:BLOCK `BALCONY_0` STOREY 0 [J]
+
+ Meters for 106,BLOCK `BALCONY_0` STOREY 0:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BLOCK `BALCONY_0` STOREY 0 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BLOCK `BALCONY_0` STOREY 0 [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:BLOCK `BALCONY_0` STOREY 0 [J]
+
+ Meters for 155,BLOCK `KITCHEN_1` STOREY 0:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BLOCK `KITCHEN_1` STOREY 0 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BLOCK `KITCHEN_1` STOREY 0 [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:BLOCK `KITCHEN_1` STOREY 0 [J]
+
+ Meters for 192,BLOCK `KITCHEN_1` STOREY 0:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BLOCK `KITCHEN_1` STOREY 0 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BLOCK `KITCHEN_1` STOREY 0 [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:BLOCK `KITCHEN_1` STOREY 0 [J]
+
+ Meters for 217,BLOCK `ROOM_2` STOREY 0:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BLOCK `ROOM_2` STOREY 0 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BLOCK `ROOM_2` STOREY 0 [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:BLOCK `ROOM_2` STOREY 0 [J]
+
+ Meters for 254,BLOCK `ROOM_2` STOREY 0:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BLOCK `ROOM_2` STOREY 0 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BLOCK `ROOM_2` STOREY 0 [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:BLOCK `ROOM_2` STOREY 0 [J]
+
+ Meters for 279,BLOCK `CORRIDOR_3` STOREY 0:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BLOCK `CORRIDOR_3` STOREY 0 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BLOCK `CORRIDOR_3` STOREY 0 [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:BLOCK `CORRIDOR_3` STOREY 0 [J]
+
+ Meters for 316,BLOCK `CORRIDOR_3` STOREY 0:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BLOCK `CORRIDOR_3` STOREY 0 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BLOCK `CORRIDOR_3` STOREY 0 [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:BLOCK `CORRIDOR_3` STOREY 0 [J]
+
+ Meters for 341,BLOCK `BATHROOM_4` STOREY 0:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BLOCK `BATHROOM_4` STOREY 0 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BLOCK `BATHROOM_4` STOREY 0 [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:BLOCK `BATHROOM_4` STOREY 0 [J]
+
+ Meters for 378,BLOCK `BATHROOM_4` STOREY 0:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BLOCK `BATHROOM_4` STOREY 0 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BLOCK `BATHROOM_4` STOREY 0 [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:BLOCK `BATHROOM_4` STOREY 0 [J]
+
+ Meters for 403,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 428,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 429,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  BLOCK `BALCONY_0` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `BALCONY_0` STOREY 0:Zone Air System Sensible Cooling Energy
+  BLOCK `KITCHEN_1` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `KITCHEN_1` STOREY 0:Zone Air System Sensible Cooling Energy
+  BLOCK `ROOM_2` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `ROOM_2` STOREY 0:Zone Air System Sensible Cooling Energy
+  BLOCK `CORRIDOR_3` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `CORRIDOR_3` STOREY 0:Zone Air System Sensible Cooling Energy
+  BLOCK `BATHROOM_4` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `BATHROOM_4` STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  BLOCK `BALCONY_0` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `BALCONY_0` STOREY 0:Zone Air System Sensible Cooling Energy
+  BLOCK `KITCHEN_1` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `KITCHEN_1` STOREY 0:Zone Air System Sensible Cooling Energy
+  BLOCK `ROOM_2` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `ROOM_2` STOREY 0:Zone Air System Sensible Cooling Energy
+  BLOCK `CORRIDOR_3` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `CORRIDOR_3` STOREY 0:Zone Air System Sensible Cooling Energy
+  BLOCK `BATHROOM_4` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `BATHROOM_4` STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BLOCK `BALCONY_0` STOREY 0 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BLOCK `BALCONY_0` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `BALCONY_0` STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  BLOCK `BALCONY_0` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `KITCHEN_1` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `ROOM_2` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `CORRIDOR_3` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `BATHROOM_4` STOREY 0:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BLOCK `BALCONY_0` STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BLOCK `BALCONY_0` STOREY 0:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  BLOCK `BALCONY_0` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `KITCHEN_1` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `ROOM_2` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `CORRIDOR_3` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `BATHROOM_4` STOREY 0:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:BLOCK `BALCONY_0` STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BLOCK `BALCONY_0` STOREY 0:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  BLOCK `BALCONY_0` STOREY 0:Zone Air System Sensible Cooling Energy
+  BLOCK `KITCHEN_1` STOREY 0:Zone Air System Sensible Cooling Energy
+  BLOCK `ROOM_2` STOREY 0:Zone Air System Sensible Cooling Energy
+  BLOCK `CORRIDOR_3` STOREY 0:Zone Air System Sensible Cooling Energy
+  BLOCK `BATHROOM_4` STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BLOCK `BALCONY_0` STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BLOCK `BALCONY_0` STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  BLOCK `BALCONY_0` STOREY 0:Zone Air System Sensible Cooling Energy
+  BLOCK `KITCHEN_1` STOREY 0:Zone Air System Sensible Cooling Energy
+  BLOCK `ROOM_2` STOREY 0:Zone Air System Sensible Cooling Energy
+  BLOCK `CORRIDOR_3` STOREY 0:Zone Air System Sensible Cooling Energy
+  BLOCK `BATHROOM_4` STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:BLOCK `BALCONY_0` STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BLOCK `BALCONY_0` STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BLOCK `KITCHEN_1` STOREY 0 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BLOCK `KITCHEN_1` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `KITCHEN_1` STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BLOCK `KITCHEN_1` STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BLOCK `KITCHEN_1` STOREY 0:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:BLOCK `KITCHEN_1` STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BLOCK `KITCHEN_1` STOREY 0:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BLOCK `KITCHEN_1` STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BLOCK `KITCHEN_1` STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:BLOCK `KITCHEN_1` STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BLOCK `KITCHEN_1` STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BLOCK `ROOM_2` STOREY 0 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BLOCK `ROOM_2` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `ROOM_2` STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BLOCK `ROOM_2` STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BLOCK `ROOM_2` STOREY 0:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:BLOCK `ROOM_2` STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BLOCK `ROOM_2` STOREY 0:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BLOCK `ROOM_2` STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BLOCK `ROOM_2` STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:BLOCK `ROOM_2` STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BLOCK `ROOM_2` STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BLOCK `CORRIDOR_3` STOREY 0 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BLOCK `CORRIDOR_3` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `CORRIDOR_3` STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BLOCK `CORRIDOR_3` STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BLOCK `CORRIDOR_3` STOREY 0:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:BLOCK `CORRIDOR_3` STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BLOCK `CORRIDOR_3` STOREY 0:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BLOCK `CORRIDOR_3` STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BLOCK `CORRIDOR_3` STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:BLOCK `CORRIDOR_3` STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BLOCK `CORRIDOR_3` STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BLOCK `BATHROOM_4` STOREY 0 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BLOCK `BATHROOM_4` STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK `BATHROOM_4` STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BLOCK `BATHROOM_4` STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BLOCK `BATHROOM_4` STOREY 0:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:BLOCK `BATHROOM_4` STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BLOCK `BATHROOM_4` STOREY 0:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BLOCK `BATHROOM_4` STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BLOCK `BATHROOM_4` STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:BLOCK `BATHROOM_4` STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BLOCK `BATHROOM_4` STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
