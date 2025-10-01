@@ -1,11 +1,11 @@
 from replan2eplus.examples.mat_and_const import SAMPLE_CONSTRUCTION_SET
 from replan2eplus.ezcase.main import EZCase
 from replan2eplus.idfobjects.variables import default_variables
-from msd1.geometry import RoomData, rotate_rectangular_polygon
+from msd.geometry import RoomData, rotate_rectangular_polygon
 from replan2eplus.zones.interfaces import Room
 
 
-from msd1.paths import (
+from msd.paths import (
     PATH_TO_IDD,
     PATH_TO_MAT_AND_CONST_IDF,
     PATH_TO_MINIMAL_IDF,

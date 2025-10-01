@@ -2,14 +2,14 @@ import polars as pl
 from replan2eplus.zones.interfaces import Room
 from svg2plan.identify.id_problems import report_problems
 
-from msd1.examples.layout_utils import adjust_domains_and_plot
-from msd1.examples.rotation import rotate_areas_in_unit
-from msd1.examples.utils import (
+from msd.examples.layout_utils import adjust_domains_and_plot
+from msd.examples.rotation import rotate_areas_in_unit
+from msd.examples.utils import (
     from_svdomain,
     get_svdomains_from_rooms,
 )
-from msd1.geometry import RoomData
-from msd1.main import MSDSchema
+from msd.geometry import RoomData
+from msd.main import MSDSchema
 
 
 def get_room_data_from_unit(unit_df: pl.DataFrame):

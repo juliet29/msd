@@ -3,8 +3,8 @@ import polars as pl
 import shapely as sp
 from shapely import plotting as shapely_plt
 
-from msd1.geometry import rotate_multipolygon
-from msd1.main import MSDSchema
+from msd.geometry import rotate_multipolygon
+from msd.main import MSDSchema
 
 
 def rotate_areas_in_unit(unit_df: pl.DataFrame, plot=False):

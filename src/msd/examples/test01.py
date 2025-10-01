@@ -1,13 +1,13 @@
 from pathlib import Path
 from rich import print
-from msd1.examples.layout import get_room_data_from_unit
-from msd1.examples.layout import (
+from msd.examples.layout import get_room_data_from_unit
+from msd.examples.layout import (
     adjust_layout_and_update_room_domains,
 )
-from msd1.case import create_case_for_unit
+from msd.case import create_case_for_unit
 
-from msd1.examples.utils import read_unit_data
-from msd1.paths import TEST_MODEL_PATH, PATH_TO_IDD, PATH_TO_WEATHER_FILE
+from msd.examples.utils import read_unit_data
+from msd.paths import TEST_MODEL_PATH, PATH_TO_IDD, PATH_TO_WEATHER_FILE
 
 from replan2eplus.visuals.base_plot import BasePlot
 from replan2eplus.visuals.data_plot import DataPlot, temperature_colorbar

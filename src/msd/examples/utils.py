@@ -7,8 +7,8 @@ from svg2plan.domains.range import Range as SVRange
 from svg2plan.helpers.layout import DomainsDict
 from utils4plans.io import read_pickle, write_pickle
 
-from msd1.main import access_dataset
-from msd1.paths import TEST_CASE_PATH
+from msd.main import access_dataset
+from msd.paths import TEST_CASE_PATH
 
 UNIT_ID = 48475
 

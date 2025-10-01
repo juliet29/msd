@@ -1,9 +1,9 @@
 import kagglehub
 from kagglehub import KaggleDatasetAdapter
 import polars as pl
-from msd1.geometry import is_rectangle
-from msd1.rectangular_calc import rect_unit_ids
-from msd1.paths import (
+from msd.geometry import is_rectangle
+from msd.rectangular_calc import rect_unit_ids
+from msd.paths import (
     THROWAWAY_PATH,
 )
 import dataframely as dy
