@@ -8,8 +8,8 @@ app = marimo.App(width="medium")
 def _():
 
     import numpy as np
-    from msd.main import filter_to_rect_units
-    from msd.case import add_rotated_geom_column
+    from msd1.main import filter_to_rect_units
+    from msd1.case import add_rotated_geom_column
     import polars as pl 
     import shapely 
     import math 
